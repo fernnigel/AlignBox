@@ -311,7 +311,7 @@ footer a:hover{
         flex-direction: column;
         position: relative;
         left: 40%;
-        width: 100px;
+        width: 120px;
     }
     .mob-mid-nav a,.mob-end-nav a{
         margin: 5px;
@@ -343,5 +343,8 @@ footer a:hover{
     }
     footer{
         font-size: 12px;
+    }
+    select{
+        padding: 5px;
     }
 }
