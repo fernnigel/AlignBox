@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment for AlignBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="index.html">LOGO</a>
+      </div>
+      <div class="mid-nav">
+        <a href="#">Categories</a>
+        <a href="#">Create</a>
+        <a href="#">Waiting Room</a>
+        <a href="#">Our Story</a>
+        <a href="#"><span class="material-icons">search</span></a>
+      </div>
+      <div class="end-nav">
+        <a href="#">Sign up</a>
+        <a href="#">Log in</a>
+      </div>
+
+      <div class="mob-nav">
+        <span class="material-icons" onclick="mobNav()">
+            menu
+        </span>
+      </div>
+
+    </nav>
+
+    <div class="mob-nav-links">
+        <div class="mob-mid-nav">
+            <a href="#">Categories</a>
+            <a href="#">Create</a>
+            <a href="#">Waiting Room</a>
+            <a href="#">Our Story</a>
+            <a href="#"><span class="material-icons">search</span></a>
+          </div>
+          <div class="mob-end-nav">
+            <a href="#">Sign up</a>
+            <a href="#">Log in</a>
+          </div>
+    </div>
+
+
+
+    <div class="sort">
+        <h1>Quizzes For Women</h1>
+        <select class="selected">
+            <option>Newest</option>
+            <option>Most Viewed</option>
+            <option>Most Liked</option>
+        </select>
+    </div>
+    <main>
+        <div class="main-container">
+            <div class="main-mid">
+            </div>
+            <div class="side">
+                <div class="category">
+                    <button class="active">All</button>
+                    <button>Quizzes</button>
+                    <button>Stories</button>
+                    <button>Top Quizzes</button>
+                    <button>Waiting Room</button>
+                </div>
+                <div class="category1">
+                    <h3>Quiz Categories</h3>
+                    <div class="category1-div">
+                        <div class="cat-row">
+                            <span style="font-weight: bold;border-left: none;">Women</span>
+                            <span>Men</span>
+                            <span>Couples</span>
+                            <span>Adults</span>
+                        </div>
+
+                        <div class="cat-row">
+                            <span style="border-left: none;">Kids</span>
+                            <span>Living</span>
+                            <span>Personality</span>
+                            <span>Hobby</span>
+                        </div>
+                        
+                        <div class="cat-row">
+                            <span style="border-left: none;">Relationship</span>
+                            <span>Animals</span>
+                            <span>Travel</span>
+                            <span>Film</span>
+                        </div>
+                        
+                      <div class="cat-row">
+                            <span style="border-left: none;">Politics</span>
+                            <span>History</span>
+                            <span>Sport</span>
+                            <span>Girls</span>
+                      </div>
+                       <div class="cat-row">
+                            <span style="border-left: none;">Trivia</span>
+                            <span>Health</span>
+                            <span>Teens</span>
+                            <span>Food</span>
+                       </div>
+                        
+                       <div class="cat-row">
+                            <span style="border-left: none;">Music</span>
+                            <span>Technology</span>
+                            <span>Education</span>
+                       </div>
+                        
+                       <div class="cat-row" style="border-bottom: none;">
+                            <span style="border-left: none;">Career</span>
+                            <span>Entertainment</span>
+                            <span>Other</span>
+                       </div>
+    
+                    </div>
+                </div>
+                <div class="category2">
+                    <h3>Top Quizzes</h3>
+                    <div class="category2-div">
+                        <div class="cat2-row">
+                            <img src="./images/image1.jpg">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="cat2-row">
+                            <img src="./images/image2.jpg">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="cat2-row">
+                            <img src="./images/image3.jpg">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="cat2-row">
+                            <img src="./images/image4.jpg">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category1">
+                    <h3>Story Genres</h3>
+                    <div class="category1-div">
+                        <div class="cat-row">
+                            <span style="border-left: none;">Action</span>
+                            <span>Adventure</span>
+                            <span>Romance</span>
+                            <span>Long</span>
+                        </div>
+
+                        <div class="cat-row">
+                            <span style="border-left: none;">Historical</span>
+                            <span>Horror</span>
+                            <span>humor</span>
+                            <span>Mystery</span>
+                        </div>
+                        
+                        <div class="cat-row">
+                            <span style="border-left: none;">NonFiction</span>
+                            <span>Poetry</span>
+                            <span>Realistic</span>
+                            <span>Fantasy</span>
+                        </div>
+                        
+                       <div class="cat-row">
+                            <span style="border-left: none;">Fanfiction</span>
+                            <span>Thriller</span>
+                            <span>Challenge</span>
+                       </div>
+                        
+                       <div class="cat-row" style="border-bottom: none;">
+                            <span style="border-left: none;">Science Fiction</span>
+                            <span>Short Stories</span>
+                       </div>
+    
+                    </div>
+                </div>
+
+                <button class="Quiz">Create Quiz</button>
+
+                <div class="category1">
+                    <h3>Popular Tags</h3>
+                    <div class="category1-div">
+                        <div class="cat-row">
+                            <span style="border-left: none;">Girls</span>
+                            <span>Friends</span>
+                            <span>Fun</span>
+                            <span>Teens</span>
+                        </div>
+
+                        <div class="cat-row">
+                            <span style="border-left: none;">Love</span>
+                            <span>Personality</span>
+                            <span>Food</span>
+                            <span>History</span>
+                        </div>
+                        
+                        <div class="cat-row">
+                            <span style="border-left: none;">Name</span>
+                            <span>Generator</span>
+                            <span>Character</span>
+                            <span>Lifestyle</span>
+                        </div>
+                        
+                        <div class="cat-row">
+                            <span style="border-left: none;">Religion</span>
+                            <span>Music</span>
+                            <span>Style</span>
+                            <span>Animals</span>
+                        </div>
+
+                        <div class="cat-row">
+                            <span style="border-left: none;">Knowledge</span>
+                            <span>Pets</span>
+                            <span>Tradition</span>
+                            <span>Life</span>
+                        </div>
+
+                        <div class="cat-row">
+                            <span style="border-left: none;">Culture</span>
+                            <span>Literature</span>
+                            <span>Fashion</span>
+                            <span>Family</span>
+                        </div>
+    
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+
+    <hr>
+    <footer>
+
+        <div>
+        <a href="#">Home</a> |
+        <a href="#">Advertise</a> |
+        <a href="#">Contact</a> |
+        <a href="#">About</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Cookie Policy</a>
+    </div>
+    <div>
+        <a href="http://fernnigel.github.io/website">Nigel Fernandes</a> &copy; 2021. All Rights Reserved.
+    </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
